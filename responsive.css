@@ -13,6 +13,47 @@
         padding-top: 50px;
     }
     .banner-container{
+        flex-direction: column-reverse;
+    }
+    .description{
+        padding-bottom: 5px;
+    }
+    .banner-text{
+        background-image: url('images/Group\ 14.png');
+        background-size: cover;
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-img{
+        width: 95%;
+    }
+    .banner{ 
+        background-image: none;
+        background-repeat: no-repeat;
+        
+    }
+    .online-games-container{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    
+}
+/* tablet device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header{
+        background-color: white;
+        box-shadow: none;
+    }
+    .navbar{
+        flex-direction: column;
+
+    }
+    .nav-list{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .banner-container{
         flex-direction: column;
     }
     .description{
@@ -33,5 +74,8 @@
         background-image: none;
         background-repeat: no-repeat;
         
+    }
+    .online-games-container{
+        grid-template-columns: repeat(2, 1fr);  
     }
 }
