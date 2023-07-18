@@ -37,6 +37,29 @@
     .online-games-container{
         grid-template-columns: repeat(1, 1fr);  
     }
+    .play-instant-container{
+        flex-direction: column;
+    }
+    .text-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-instant-img{
+        width: 80%;
+    }
+    .category{
+        max-width: calc(100% - 10%);
+    }
+    .category-title{   
+        font-size: 12px;
+    }
+    .icon{
+        width: 30px;
+    }
+    .category-item{
+        width: 110px;
+        padding: 5px;
+    }
     
 }
 /* tablet device */
@@ -77,5 +100,21 @@
     }
     .online-games-container{
         grid-template-columns: repeat(2, 1fr);  
+    }
+    .online-games-container{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .play-instant-container{
+        flex-direction: column;
+    }
+    .text-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-instant-img{
+        width: 80%;
+    }
+    .category-title{   
+        font-size: 15px;
     }
 }
