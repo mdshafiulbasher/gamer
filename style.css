@@ -182,4 +182,35 @@ padding-bottom: 20px;
     border: none;
     background: none;
 } */
+
+/* play istant related style start */
+.play-instant{
+    max-width: calc(100% - 20%);
+    margin: 50px auto;
+}
+.play-instant-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.text-content{
+    width: 30%;
+    text-align: right;
+}
+.play-instant-img{
+    width: 50%;
+    position: relative;
+}
+.img-1 img{
+    width: 100%;
+    
+}
+.img-2{
+    width: 40%;
+    position: absolute;
+    top: 60%;
+    right: 80%;
+}
+/* play istant related style end */
 /* online games related style end */
