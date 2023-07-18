@@ -243,11 +243,76 @@ padding-bottom: 20px;
     color: #0B0223;
 font-size: 16px;
 font-weight: 600;
-
+}
+.category-title:hover{
+    color: #FF42A5;
 }
 .icon{
     width: 40px;
 }
 /* category style end */
+/* footer related style start */
+.footer{
+    background-color: #0B0223;
+    text-align: center;
+    padding: 100px 0px;
+}
+.logo-footer{
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.name{
+    color: #fff;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.links a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.settings{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.settings a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.copyright{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* footer related style end */
 /* play instant related style end */
 /* online games related style end */

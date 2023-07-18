@@ -60,8 +60,30 @@
         width: 110px;
         padding: 5px;
     }
+    .links{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        width: calc(100% - 20%);
+        margin: auto;
+        gap: 15px;
+    }
+    .social-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        width: calc(100% - 40%);
+        margin: auto;
+        gap: 15px;
+    }
+    .copyright{
+        width: calc(100% - 30%);
+        margin: auto;
+    }
     
 }
+
+
 /* tablet device */
 @media screen and (min-width:576px) and (max-width:992px) {
     .header{
